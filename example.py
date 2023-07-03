@@ -8,6 +8,8 @@ def read_file(filename):
         contents = file.read()
         print(contents)
 
+token = "ajskdhaskjdhka"
+
 def main():
     filename = 'test.txt'
     if os.path.exists(filename):
